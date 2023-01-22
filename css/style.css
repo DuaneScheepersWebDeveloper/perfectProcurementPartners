@@ -1,5 +1,8 @@
 /* 
 */
+*{
+	box-sizing: border-box;
+}
 body {
 	font-size: 21px;
 	overflow-x: hidden;
@@ -26,7 +29,9 @@ a:focus {
 	text-decoration: none;
 	outline: none;
 }
+/* ---------------------------------------------------------------------------------- */
 
+/* ---------------------------------------------------------------------------------- */
 .container-fluid {
 	padding-left: 0;
 	padding-right: 0;
@@ -91,6 +96,8 @@ p {
 }
 
 .tm-white-bg-mani-page {
+	padding-top: 180px;
+
 	background-color: rgba(255, 255, 255, 0.8);
 	color: #676362;
 }
@@ -359,6 +366,7 @@ p {
 @media screen and (max-height: 639px) {
 	.tm-section-home {
 		min-height: 100%;
+		
 	}
 }
 
